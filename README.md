@@ -15,6 +15,14 @@ _Hint:_<br>`$("#trivia-form").on("XXXXX",function(event){`<br>
 ` `<br>
 ` `<br>
 `});`
+
+```
+$("#trivia-form").on("XXXXX",function(event){<br>
+event.preventDefault();<br>
+<br>
+<br>
+});
+```
 <br><br>
 ### Step #2 - Check user answer <br>
 In this step, you should add code that figures out what answer the user picked and tells them if they got it right by outputting a message in the `#result` div.
